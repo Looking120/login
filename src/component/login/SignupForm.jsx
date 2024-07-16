@@ -56,7 +56,7 @@ const SignupForm = ({ handleSwitch }) => {
             <Grid item xs={12} sm={10} md={8} lg={6} xl={5} sx={{ display: 'flex', alignItems: 'stretch' }}>
                 <Box
                     component="img"
-                    src={loginImg} // Remplacez par l'image appropriée
+                    src={loginImg} 
                     alt="Sign Up Image"
                     sx={{
                         width: '50%',
@@ -69,7 +69,7 @@ const SignupForm = ({ handleSwitch }) => {
                         },
                     }}
                 />
-                <Box sx={{ width: '1rem' }} /> {/* Box pour l'espacement */}
+                <Box sx={{ width: '1rem' }} /> 
                 <Box
                     display="flex"
                     flexDirection="column"
